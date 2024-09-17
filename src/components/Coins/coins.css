@@ -1,0 +1,152 @@
+.coin-headings {
+    letter-spacing: 0.2rem;
+    width: 90vw;
+    margin-left: 5rem;
+    position: fixed;
+    background-color: rgb(15, 15, 15);
+    padding: 3rem 0;
+    top: 11rem;
+    left: -2rem;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: rgb(234, 255, 255);
+}
+
+.coin-heading-price {
+    position: relative;
+    left: 2.7rem;
+}
+
+.coin-heading-name {
+    position: relative;
+    left: 2rem;
+}
+
+.coin-heading-symbol {
+    position: relative;
+    left: 3rem;
+}
+
+.btns {
+    width: 100vw;
+    top: 4rem;
+    left: -12rem;
+    background-color: rgb(15, 15, 15);
+    padding-left: 9rem;
+    z-index: 4;
+    position: fixed;
+}
+
+.btns>button {
+    background-color: #9823db;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+}
+
+
+.search-bar input {
+    height: 2rem;
+    border-radius: 50px;
+    width: 14rem;
+    z-index: 5;
+    position: fixed;
+    top: 1rem;
+    left: 33%;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+}
+
+.coins-title {
+    display: flex;
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+    font-size: 2.5rem;
+}
+
+.coins-body {
+    margin-top: 23rem;
+    margin-right: 3rem;
+}
+
+@media screen and (max-width:860px) {
+    .search-bar input {
+        left: 25%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .coin-headings {
+        width: 100vw;
+        letter-spacing: 0;
+        font-size: 12px;
+        margin-left: 1rem;
+        padding-left: 10px;
+        margin-top: 8px;
+    }
+
+    .coins-body {
+        font-size: 10px;
+    }
+
+    .coins-image>img {
+        position: relative;
+        right: 3rem;
+        height: 50px;
+        width: 50px;
+    }
+
+    .coin-heading-symbol {
+        left: 1.2rem;
+    }
+
+    .btns {
+        padding: 0;
+        margin-top: -9px;
+    }
+
+    .coins-body {
+        margin-right: 0;
+        margin-top: 20rem;
+        padding-left: 12px;
+    }
+
+    .coin-heading-name {
+        left: 0;
+    }
+
+    .coin-heading-percent {
+        position: relative;
+        left: 1rem;
+    }
+
+    .coin-heading-price {
+        left: 1.8rem;
+    }
+
+    .search-bar input {
+        position: fixed;
+        top: 11%;
+        left: 7%;
+        max-width: 70vw;
+        text-decoration: none;
+        /* height: 27px; */
+    }
+
+    .coins-title {
+        position: relative;
+        top: 3rem;
+        padding-top: 10px;
+        font-size: 25px;
+    }
+    .btns>button{
+        font-size: 13px;
+    }
+}
